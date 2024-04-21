@@ -650,7 +650,10 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   #BANNER
 \*-----------------------------------*/
 
-.banner { margin: 30px 0; }
+.banner { 
+  margin: 30px 0;
+  margin-top: 50px;
+ }
 
 .slider-container {
   display: flex;
@@ -1872,6 +1875,7 @@ footer {
 
   .header-top .container,
   .header-main .container {
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
